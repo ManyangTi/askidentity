@@ -37,7 +37,7 @@ function handleError(res, reason, message, code) {
     res.status(code || 500).json({"error": message});
   }
   
-  *  "/api/contacts"
+/*  "/api/contacts"
  *    GET: finds all contacts
  *    POST: creates a new contact
  */
